@@ -32,9 +32,9 @@
 
 <div class="btn-group" role="group" aria-label="Basic mixed styles example">
   <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modal1">Red</button>
-  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal1">Yellow</button>
+  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal2">Yellow</button>
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Blue</button>
-  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal1">Green</button>
+  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal2">Green</button>
 </div>
 
 <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
@@ -48,7 +48,24 @@
         This works out really well for my closet with OU shirts.
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalLabel2">Wrong!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Meh yellow is alright I guess, but defintely not my color.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-yellow" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
